@@ -1,23 +1,44 @@
+/* These are the universal settings to remove any default margin padding of the browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: #ffffff;
-    background-size: 100%;
     max-width: 100%;
     color: #333;
 }
+
+/* as apne pele hi background color white de dia hai..to baar baar dene ki need nhi h. islie comment kr dia. remove kr dena padh ke */
 header{
     max-width: 100%;
-    background-color: #ffffff;
-    padding: 20px ;
+    /* background-color: #ffffff; */
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    
+    padding-inline: 40px;
+    /* align-content: center;  You should use align items instead of align content .ye content ko vertically center krta hai relative to the parent element*/ 
+    align-items: center;
 }
-header nav a{
-    margin: 10px;
+/* This is the css for nav inside the header.nav is also a type of div. so we give it a flex and gap. do stude about flex and gap from w3 schools. */
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+ nav a{
     text-decoration: none;
-    color: #333;
+    color: #333;  
     font-weight: 500;
+    padding: 10px;
+}
+/* with hover jab ham mouse ko upr leke jaenge  a tag wale elements ke to umpr ye property apply ho jaegi  */
+nav a:hover{
+    background-color: #ed6514;
+    color: #ffffff;
+    border-radius: 10px;
 }
 header .signup-btn{
     background-color: #ed6514;
@@ -27,32 +48,27 @@ header .signup-btn{
     border-radius: 10px;
     cursor: pointer;
 }
-header .container{
-padding: 10px 40px;
-}
+
 .outer{
-    background-color: white;
     width: 100%;
-    display: flex;
-    
+    display: flex; 
     padding-top: 40px;
-    justify-content:space-between;
+    padding-inline: 60px;
+    justify-content:center;
 }
 .textbox{
-    border: solid orange;
     width: 45%;
-    padding-left: 110px;
 }
 .textbox h1{
     color: #333;
-    font-size: xxx-large;
-    margin-bottom: 20px;
-    padding: 10px 40px;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
 }
 .textbox p{
     color: #333;
-    font-size: xx-large;
-    padding-left: 40px;
+    font-size: 1.4rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.02rem;
 }
 .textbox h1 .highlight{
     color: #ed6514;
@@ -60,17 +76,18 @@ padding: 10px 40px;
 .started{
       background: #ff6600;
       color: white;
-      padding: 10px 20px;
+      padding: 12px 25px;
       border: none;
       border-radius: 10px;
       cursor: pointer;
-      margin-left: 40px;
-      margin-top: 10px;
+      margin-top:2rem;
 }
 .images{
-    border: solid red;
- margin-top: 25px;
- padding-left: 75px;
-   width: 49%;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.images img{
+    width: 60%;
 }
