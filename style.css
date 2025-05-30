@@ -1,0 +1,76 @@
+body{
+    background-color: #ffffff;
+    background-size: 100%;
+    max-width: 100%;
+    color: #333;
+}
+header{
+    max-width: 100%;
+    background-color: #ffffff;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+header nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+header .signup-btn{
+    background-color: #ed6514;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+header .container{
+padding: 10px 40px;
+}
+.outer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    
+    padding-top: 40px;
+    justify-content:space-between;
+}
+.textbox{
+    border: solid orange;
+    width: 45%;
+    padding-left: 110px;
+}
+.textbox h1{
+    color: #333;
+    font-size: xxx-large;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+}
+.textbox p{
+    color: #333;
+    font-size: xx-large;
+    padding-left: 40px;
+}
+.textbox h1 .highlight{
+    color: #ed6514;
+}
+.started{
+      background: #ff6600;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-left: 40px;
+      margin-top: 10px;
+}
+.images{
+    border: solid red;
+ margin-top: 25px;
+ padding-left: 75px;
+   width: 49%;
+   
+}
