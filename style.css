@@ -93,3 +93,52 @@ header .signup-btn{
 .images img{
     width: 60%;
 }
+.Services{
+/*margin: 30px;*/
+padding: 30px;
+font-size: x-large;
+
+text-align: center;
+}
+.highlights{
+color:#ff6600;
+font-weight: bolder;
+}
+.service{
+    max-width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 40px;
+    align-items: center;
+}
+.card{
+    border: solid black;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
+.card:hover{
+    background-color:#ff6600;
+    color:#ffffff ;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+.outer2{
+    
+    background-color: #fcede6;
+    width: 100%;
+    height: 70vh;
+    display: flex; 
+    align-items: center;
+    padding-inline: 60px;
+    justify-content:center;
+}
+.outer2 img{
+    width: 45%;
+ 
+    padding: 10px 20 px;
+    height: auto;
+}
