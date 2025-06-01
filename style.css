@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -62,12 +63,12 @@ header .signup-btn {
 }
 .textbox h1 {
   color: #333;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
 }
 .textbox p {
   color: #333;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   word-spacing: 0.3rem;
   letter-spacing: 0.02rem;
 }
@@ -149,10 +150,10 @@ header .signup-btn {
 }
 .solutions h1 .highlight1 {
   color: #ff6600;
-  font-weight: bolder;
+  font-weight: 500;
 }
 .solutions h1 {
-  font-size: 3.4rem;
+  font-size: 3rem;
 }
 .solutions p {
   color: #333;
@@ -197,14 +198,14 @@ header .signup-btn {
 }
 .texts h2 {
   color: #333;
-  font-size: 3.4rem;
+  font-size: 3rem;
 }
 .texts h2 .high {
   color: #ff6600;
   font-weight: bolder;
 }
 .texts p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -251,7 +252,7 @@ header .signup-btn {
   width: 25%;
 }
 .company h5 {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 .design {
   cursor: pointer;
@@ -263,7 +264,7 @@ header .signup-btn {
   width: 25%;
 }
 .design h5 {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 .res {
   cursor: pointer;
@@ -275,5 +276,14 @@ header .signup-btn {
   width: 25%;
 }
 .res h5 {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
+}
+.company h4{
+  font-size: 1rem;
+}
+.design h4{
+  font-size: 1rem;
+}
+.res h4{
+  font-size: 1rem;
 }
