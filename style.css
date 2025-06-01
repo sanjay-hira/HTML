@@ -1,289 +1,279 @@
 /* These are the universal settings to remove any default margin padding of the browser */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-body{
-    background-color: #ffffff;
-    max-width: 100%;
-    color: #333;
+body {
+  background-color: #ffffff;
+  max-width: 100%;
+  color: #333;
 }
 
 /* as apne pele hi background color white de dia hai..to baar baar dene ki need nhi h. islie comment kr dia. remove kr dena padh ke */
-header{
-    max-width: 100%;
-    height: 15vh;
-    /* background-color: #ffffff; */
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 40px;
-    /* align-content: center;  You should use align items instead of align content .ye content ko vertically center krta hai relative to the parent element*/ 
-    align-items: center;
+header {
+  max-width: 100%;
+  height: 15vh;
+  /* background-color: #ffffff; */
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 40px;
+  /* align-content: center;  You should use align items instead of align content .ye content ko vertically center krta hai relative to the parent element*/
+  align-items: center;
 }
 /* This is the css for nav inside the header.nav is also a type of div. so we give it a flex and gap. do stude about flex and gap from w3 schools. */
 nav {
-    display: flex;
-    gap: 20px;
-    padding: 10px;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
 }
- nav a{
-    text-decoration: none;
-    color: #333;  
-    font-weight: 500;
-    padding: 10px;
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 10px;
 }
 /* with hover jab ham mouse ko upr leke jaenge  a tag wale elements ke to umpr ye property apply ho jaegi  */
-nav a:hover{
-    background-color: #ed6514;
-    color: #ffffff;
-    border-radius: 10px;
+nav a:hover {
+  background-color: #ed6514;
+  color: #ffffff;
+  border-radius: 10px;
 }
-header .signup-btn{
-    background-color: #ed6514;
-    padding: 10px 20px;
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+header .signup-btn {
+  background-color: #ed6514;
+  padding: 10px 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.outer{
-    width: 100%;
-    height: 80vh;
-    display: flex; 
-    align-items: center;
-    padding-inline: 60px;
-    justify-content:center;
+.outer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding-inline: 60px;
+  justify-content: center;
 }
-.textbox{
-    width: 45%;
+.textbox {
+  width: 45%;
 }
-.textbox h1{
-    color: #333;
-    font-size: 3.5rem;
-    margin-bottom: 1.5rem;
+.textbox h1 {
+  color: #333;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
 }
-.textbox p{
-    color: #333;
-    font-size: 1.4rem;
-    word-spacing: 0.3rem;
-    letter-spacing: 0.02rem;
+.textbox p {
+  color: #333;
+  font-size: 1.4rem;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.02rem;
 }
-.textbox h1 .highlight{
-    color: #ed6514;
+.textbox h1 .highlight {
+  color: #ed6514;
 }
-.started{
-      background: #ff6600;
-      color: white;
-      padding: 12px 25px;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      margin-top:2rem;
+.started {
+  background: #ff6600;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 2rem;
 }
-.images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45%;
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
 }
-.images img{
-    width: 60%;
+.images img {
+  width: 60%;
 }
-.Services{
-/*margin: 30px;*/
-padding: 30px;
-font-size: x-large;
-
-text-align: center;
+.Services {
+  /*margin: 30px;*/
+  padding: 30px;
+  font-size: x-large;
+  text-align: center;
 }
-.highlights{
-color:#ff6600;
-font-weight: bolder;
+.highlights {
+  color: #ff6600;
+  font-weight: bolder;
 }
-.service{
-    max-width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: space-around;
-    padding-inline: 40px;
-    align-items: center;
+.service {
+  max-width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 40px;
+  align-items: center;
 }
-.card{
-    border: solid black;
-    padding: 20px 30px;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #333;
+.card {
+  border: solid black;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
 }
-.card:hover{
-    background-color:#ff6600;
-    color:#ffffff ;
-    border-radius: 10px;
-    box-shadow: 10px 10px black;
+.card:hover {
+  background-color: #ff6600;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 10px 10px black;
 }
-.outer2{
-    background-color: #fcede6;
-    width: 100%;
-    height: 75vh;
-    display: flex; 
-    align-items: center;
-    padding-inline: 60px;
-    justify-content:center;
+.outer2 {
+  background-color: #fcede6;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-inline: 60px;
+  padding: 40px;
+  justify-content: center;
+  margin-top: 20px;
 }
-.outer2 img{
-    width: 70%;
-   
+.imagesbox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
-.imagesbox{
-
- width: 50%;
-display: flex;
- justify-content: center;
+.outer2 img {
+  width: 70%;
 }
-.solutions{
-    color: #333;
-    width: 50%;
-    font-size: x-large;
+.solutions {
+  color: #333;
+  width: 50%;
+  font-size: x-large;
 }
-.solutions h1 .highlight1{
-    color: #ff6600;
-    font-weight: bolder;
+.solutions h1 .highlight1 {
+  color: #ff6600;
+  font-weight: bolder;
 }
-.solutions h1{
-    font-size: 3.4rem;
+.solutions h1 {
+  font-size: 3.4rem;
 }
-.solutions p{
-    color: #333;
-    font-size: 1.4rem;
+.solutions p {
+  color: #333;
+  font-size: 1.2rem;
 }
-.steps{
-   margin-top: 20px;
+.steps {
+  margin-top: 20px;
 }
-.step{
-    display:flex ;
+.step {
+  display: flex;
 }
-.step-number{
-    text-align: center;
-width: 50px;
-height: 50px;
-padding-top: 10px;
-    background-color: #ff6600;
-    border-radius: 50px;
-   margin-right: 20px;
-   color: #fcede6;
+.step-number {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  background-color: #ff6600;
+  border-radius: 50px;
+  margin-right: 20px;
+  color: #fcede6;
 }
-.Agency{
-   
-    max-width: 100%;
-    display: flex;
-    height: 65vh;
-    padding-inline: 200px;
-    align-items: center;
-    justify-content: center;
+.Agency {
+  max-width: 100%;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
 }
-.Agency img{
-    width: 50%;
-    
+.Agency img {
+  width: 60%;
 }
-.images3{
-    width: 50%;
-    height: 90%;
-    display: flex;
-    justify-content:center;
+.images3 {
+  width: 40%;
+  display: flex;
+  justify-content: start;
 }
-.texts{
-    padding-left: 50px;
-    width: 50%;
-    height: 60%;
-    font-size: large;
+.texts {
+  padding-left: 100px;
+  width: 50%;
+  height: 60%;
+  font-size: large;
 }
-.texts h2{
-    color: #333;
-    font-size: 3.4rem;
+.texts h2 {
+  color: #333;
+  font-size: 3.4rem;
 }
-.texts h2 .high{
-    color:#ff6600;
-    font-weight: bolder;
+.texts h2 .high {
+  color: #ff6600;
+  font-weight: bolder;
 }
-.texts p{
-    font-size: 1.4rem;
-    margin-top: 20px;
-    margin-bottom: 30px;
+.texts p {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-.btn-primary{
-    padding: 10px 25px;
- color: #fcede6;
- background-color: #ff6600;
- border: none;
- border-radius: 10px;
- cursor: pointer;
-  }
-  .footer{
-    padding-inline: 20px;
-    background-color: #fcede6;
-    display: flex;
-    max-width: 100%;
-    height: 40vh;
-  }
-  .buzz{
-    display: flex;
-    flex-direction: column;
-   
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
-    width: 25%;
-  }
-  .buzz img{
-    width: 10%;
-  }
-  .buzz h6{
-    
-    color: #333;
-  }
-  .image4{
-    display:flex ;
-    justify-content: center;
-    cursor: pointer;
-  }
-  .company{
-    cursor: pointer;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: left;
-    color: #333;
-    width: 25%;
-  }
-  .company h5{
-    font-size: 1.9rem;
-  }
-  .design{
-    cursor: pointer;
-    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: left;
-color: #333;
-width: 25%;
-  }
-  .design h5{
-    font-size: 1.9rem;
-  }
-  .res{
-    cursor: pointer;
-    display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: left;
-color: #333;
-width: 25%;
-  }
-  .res h5{
-    font-size: 1.9rem;
-  }
+.btn-primary {
+  padding: 10px 25px;
+  color: #fcede6;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.footer {
+ padding: 40px;
+  background-color: #fcede6;
+  display: flex;
+  max-width: 100%;
+}
+.buzz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  width: 25%;
+}
+.buzz img {
+  width: 10%;
+}
+.buzz h6 {
+  color: #333;
+}
+.image4 {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.company {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: #333;
+  width: 25%;
+}
+.company h5 {
+  font-size: 1.9rem;
+}
+.design {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: #333;
+  width: 25%;
+}
+.design h5 {
+  font-size: 1.9rem;
+}
+.res {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: #333;
+  width: 25%;
+}
+.res h5 {
+  font-size: 1.9rem;
+}
